@@ -18,6 +18,9 @@ a.recipe {
     margin-right: auto;
     padding: 16px;
     text-decoration: none;
+    border-color: darkcyan;
+    border-radius: 10px;
+    border-style:double;
 }
 div.row{
     display: flex;
@@ -28,4 +31,5 @@ a>p{
     text-align: center;
     font-weight: bold;
     color: black;
+    font-size: larger;
 }
