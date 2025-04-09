@@ -1,6 +1,6 @@
 h1 {
-    background-color: cadetblue;
-    margin: 0 auto;
+    background-color: lightblue;
+    margin: 4px;
     text-align: center;
     border-color: darkcyan;
     border-style: ridge;
@@ -12,7 +12,7 @@ body {
 }
 a.recipe {
     display: inline-block;
-    background-color:rgb(124, 167, 167);
+    background-color:lightblue;
     margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
@@ -32,4 +32,43 @@ a>p{
     font-weight: bold;
     color: black;
     font-size: larger;
+}
+button{
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 0px auto 4px 4px;
+    border-style: ridge;
+}
+button>a{
+    text-decoration:none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+img.recipe {
+    margin: 4px auto;
+    border-style:ridge;
+    border-color: cadetblue;
+    border-radius: 10px;
+}
+div.flex-container{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+}
+span.description {
+    margin: 4px 10px;
+}
+span.container {
+    display:inline-flex;
+    flex-flow: row;
+    align-items: baseline;
+    background-color:lightblue;
+    padding: 4px;
+    margin: 4px;
+    border-color: cadetblue;
+    border-style: ridge;
+    border-radius: 10px;
+}
+h2 {
+    margin: 4px;
 }
