@@ -1,0 +1,31 @@
+h1 {
+    background-color: cadetblue;
+    margin: 0 auto;
+    text-align: center;
+    border-color: darkcyan;
+    border-style: ridge;
+    border-radius: 5px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color:aliceblue;
+}
+a.recipe {
+    display: inline-block;
+    background-color:rgb(124, 167, 167);
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    text-decoration: none;
+}
+div.row{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+a>p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
